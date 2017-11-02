@@ -1,0 +1,481 @@
+ul,li,a,h1,h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Roboto Slab', serif;
+}
+
+/*Header top area*/
+
+.header-top{
+	background-color: black;
+	color:#bdc3c7;
+
+}
+.social-menu-area{
+		border-bottom: 1px solid #bdc3c7;
+
+} .social-menu-area ul {     list-style-type: none;     text-align: center;
+padding: 3px 0px;
+
+}
+.social-menu-area ul li{
+	display: inline-block;
+}
+.social-menu-area ul li a{
+	display: block;
+	color: #bdc3c7;
+	padding: 5px;
+	font-size: 16px;
+	transition: .5s;
+	
+}
+.social-menu-area ul li a:hover{
+	color: white;
+}
+
+/*account area*/
+.account-area{
+	padding: 5px 0px;
+	
+}
+.account-area ul{
+	list-style: none;
+	text-align: center;
+
+}
+.account-area ul li{
+	display: inline-block;
+}
+
+.account-area ul li a{
+	display: block;
+	text-transform: uppercase;
+	color: #bdc3c7;
+	padding: 5px 8px;
+	font-size: 15px;
+	text-decoration: none;
+	transition: .5s;
+
+}
+.account-area ul li:hover a{
+	color: white;
+}
+
+.account-area ul li:nth-child(2){
+	border-right:1px solid  #bdc3c7;
+	border-left:1px solid  #bdc3c7;
+}
+
+/*header logo area */
+.header-logo-area{
+	padding: 10px 0px;
+
+
+}
+.header-logo{
+
+}
+
+.header-logo img{
+
+	text-align: center;
+	margin-bottom: 10px;
+}
+.header-logo p{
+	font-weight: bold;
+	color: black;
+
+}
+
+/*menu area*/
+nav{
+	background-color: black;
+
+}
+
+.menu-area{
+
+
+}
+.menu-area ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 10px 0px;
+}
+.menu-area ul li{
+	display: inline-block;
+
+}
+.menu-area ul li a{
+	display: block;
+	color: #bdc3c7;
+	text-decoration: none;
+	padding: 5px 10px;
+	transition: .5s;
+	text-transform: uppercase;
+	border-right:1px solid transparent; 
+	border-left: 1px solid transparent; 
+
+}
+.menu-area ul li:hover a{
+	color: white;
+	border-right:1px solid #bdc3c7; 
+	border-left: 1px solid #bdc3c7; 
+
+}
+
+/*Banner area*/
+.banner-area{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 500px;
+	position: relative;
+
+}
+.banner-text-area{
+	position: absolute;
+	top: 10%;
+	right: 50px;
+	background-color: rgba(189, 195, 199,.80);
+	width: 30%;
+	padding: 20px;
+	color: white;
+
+	border-radius: 2px;
+}
+.banner-text-area h1{
+	color: black;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.banner-text-area p{
+	color: black;
+	margin-bottom: 10px;
+
+}
+.banner-text-area a{
+	margin: auto;
+	display: block;
+}
+
+
+
+
+
+/*badge area*/
+
+.badge-area{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color: #E3E3E3;
+}
+
+.badge-area .badge img{
+	width: 100%;
+	height: 50px;
+	padding: 0px;
+
+}
+
+
+/*Finance area*/
+
+
+.finance-area{
+	padding: 40px 0px;
+	text-align: center;
+}
+
+.finance h2{
+	font-size: 25px;
+}
+.finance a{
+	margin-top: 20px;
+}
+
+/*investement area*/
+
+.investement-text:after{
+	
+	width: 0px;
+	height: 0px;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid white;
+	border-left: 30px solid transparent;
+	position: absolute;
+	top: -41px;
+	left: 50%;
+	z-index: 999;
+	content: '';
+	transform: rotate(45deg);
+
+
+}
+
+
+
+.investment-area{
+
+	color:white;
+	padding: 30px 0px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+
+
+}
+.investement-text > h5{
+	text-align: center;
+	padding-top: 50px;
+	font-weight: bold;
+
+	
+}
+.flip-area{
+	margin-top: 80px;
+}
+
+.investment{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.investment .front{
+	background-color: black;
+	border: 3px solid white;
+	padding: 40px 25px;
+	border-radius: 5px;
+
+}
+
+
+.investment .front i{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	border:1px solid white;
+	padding: 5px;
+	margin-bottom: 10px;
+
+}
+.investment .front h3{
+	margin-bottom: 5px;
+
+}
+
+
+.investment .back{
+	background-color: black;
+	border: 3px solid white;
+	padding: 40px 25px;
+	border-radius: 5px;
+
+}
+.investment .back h4{
+
+	margin-bottom: 10px;
+	font-size: 16px;
+
+}
+
+.investment .back p{
+	font-size: 14px;
+}
+
+
+
+
+/*investor-area*/
+.investor-area{
+	padding: 50px 0px;
+}
+
+.investor-header{
+
+}
+.investor-header > h4{
+	text-align: center;	
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.investor:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.investor-icon{
+	float: left;
+	width:7%;
+
+
+}
+.investor-icon i{
+	background-color: black;
+	color:white;
+	padding: 5px;
+	border-radius: 4px;
+
+}
+
+
+
+.investor-content{
+	float: left;
+	width:93%;
+}
+.investor-content h5{
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.investor-content p{
+	margin-bottom: 8px;
+}
+
+/*more-resources-area*/
+
+.more-resources-text:after{
+	width: 0px;
+	height: 0px;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid white;
+	border-left: 30px solid transparent;
+	position: absolute;
+	top: -41px;
+	left: 50%;
+	z-index: 999;
+	content: '';
+	transform: rotate(45deg);
+}
+
+.more-resources-area{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 50px 0px;
+	position: relative;
+}
+
+.more-resources-text{
+	margin-bottom: 40px;
+}
+
+.more-resources-text h5{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.more-resources{
+	text-align: center;
+}
+
+.more-resources-content{
+	background-color: black;
+	color: white;
+	padding: 30px;
+	border-radius: 5px;
+
+}
+.more-resources-content h4{
+	margin-bottom: 10px;
+}
+.more-resources-content p{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer area*/
+
+footer{
+	background-color: black;
+}
+
+.footer-top-area{
+	padding: 30px 0px;
+	color:#bdc3c7; 
+	border-bottom: 1px solid #bdc3c7;
+
+}
+.footer-top-area h6{
+
+	text-transform: uppercase;
+	margin-bottom: 30px;
+
+}
+.footer-top-area ul{
+	list-style: none;
+}
+.footer-top-area ul li{
+	
+}
+.footer-top-area ul li a{
+	color: #bdc3c7;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: block;
+	transition: .5s;
+}
+.footer-top-area ul li:hover a{
+	color: white;
+
+}
+
+.footer-top-area ul li a:before{
+	content: '> ';
+	color: red;
+
+}
+
+.footer-copyright-area{
+	color: #bdc3c7;
+	padding: 40px 0px;
+}
+
+.footer-copyright-area .social-menu-area{
+	border-bottom: 1px solid transparent;
+}
+.footer-copyright-area .social-menu-area ul{
+	float: right;
+}
+
+
+.copyright-text p{
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
