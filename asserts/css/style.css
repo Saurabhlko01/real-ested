@@ -664,37 +664,117 @@ nav{
 	padding: 20px 0px;
 }
 
+/*login area*/
+.accaunt-area{
+	padding: 50px 0px;
 
 
+}
+
+.accaunt{
+	width: 70%;
+	margin: auto;
+	background-color: rgba(0 ,128 , 0 , .7);
+		border-radius:5px;
+}
+
+.accaunt .active a{
+		background-color: rgba(0 ,128 , 0 , 1.0);
+}
 
 
+.accaunt ul{
+	list-style: none;
+	width: 60%;
+	margin: auto;
+
+}
+.accaunt ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.accaunt ul li{
+	float: left;
+	width: 50%;
+
+}
+.accaunt ul li a{
+	display: block;
+	padding: 15px 30px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.login-area{
+
+	padding: 50px 0px;
+	width: 90%;
+	margin: auto;
+}
+
+.login-area > h1{
+	text-align: center;
+	color: white;
+	
+	margin-bottom: 20px;
+}
+
+.input-name:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.input-name{
+	width: 100%;
+	margin-bottom: 25px;
+
+}
+
+.input-name input{
+	width: 48%;
+	float: left;
+	padding: 10px 10px;
+	border:1px solid transparent;
+	outline:none;
+	background-color: rgba(0 ,128 , 0 , .7);
+	color:white;
 
 
+}
 
+.input-name input::placeholder{
+	color:white;
+}
 
+.input-name input:nth-child(2){
+	float: right;
+}
 
+.login-input-area > input{
+	display: block;
+	width: 100%;
+	border:1px solid transparent;
+	background-color: rgba(0 ,128 , 0 , .7);
+	color:white;
 
+	padding: 10px 10px;
+	outline:none;	
+	margin-bottom: 25px;
+}
 
+.login-input-area > input::placeholder{
+	color:white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.login-input-area > input[type="submit"]{
+	text-transform: uppercase;
+	cursor: pointer;
+}
 
 
 
@@ -762,13 +842,3 @@ footer{
 .copyright-text p{
 	font-size: 13px;
 }
-
-
-
-
-
-
-
-
-
-
