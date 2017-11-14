@@ -39,7 +39,11 @@
 
 		<div class="account-area">
 			<ul>
-				<li><a href="#">Member Home</a></li>
+				<li>
+					<input type="search" placeholder="Search">
+
+					<i class="fa fa-search" aria-hidden="true"></i>					
+				</li>
 				
 				<li><a href="account.html">Account</a></li>
 				
@@ -330,6 +334,24 @@ $(document).on('click','[data-toggle="lightbox"]',function(event) {
 
             });
 
+
+
+	$('.account-area ul li i').click(function() {
+
+		$('.account-area ul li input').toggle(  );
+
+		$('.account-area ul li i').hide();
+	});
+
+	// Search 
+
+
+	$('.account-area ul li i').click(function() {
+
+		$('.account-area ul li input').toggle(  );
+
+		$('.account-area ul li i').hide();
+	});	
 
 
 </script>

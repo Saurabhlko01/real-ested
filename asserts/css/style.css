@@ -49,9 +49,34 @@ body{
 	text-align: center;
 
 }
+
 .account-area ul li{
 	display: inline-block;
 }
+.account-area ul li input{
+	background-color: rgba( 0 , 128 , 0, 1.0);
+	border: 1px solid black;
+	padding: 3px;
+	outline: none;
+	color:black;
+	display: none;
+	transition: .5s;
+	border-radius: 3px;
+}
+.account-area ul li input::placeholder{
+	color: black;
+}
+.account-area ul li i{
+	cursor: pointer;
+	font-size: 20px;
+	padding: 4px;
+	transition: .5s;
+}
+.account-area ul li:hover i{
+	color:yellow;
+}
+
+
 
 .account-area ul li a{
 	display: block;
