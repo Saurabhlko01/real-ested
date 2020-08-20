@@ -1,0 +1,217 @@
+
+<html>
+<title>saurabh</title>
+<head>
+<body  background="1.JPG">  
+
+
+<hr size="5px" width="100%"color="yellow">
+
+<body bgcolor="white"> 
+                     <marquee behavior="scroll" direction="left"scrollamount="10" > <font color="pink" size="90px"<h1>SCHOOL OF MANAGEMENT SCIENCE LUCKNOW</h1> 
+  </marquee>
+                    <hr size="5px"width="100%" color="yellow">
+<body>
+<p align="right">
+                     <a href="file:///C:/Users/mr.saurabh%20yadav/Desktop/HTML/class/SMS%20%7B%20BCA%202ST%20YEAR%7D.HTML"style="font-size:16px;"><button>Home</button></a>
+                     <a href="file:///C:/Users/mr.saurabh%20yadav/Desktop/HTML/class/About%20Us.html" style="font-size:16px;"><button>About Us</button></a>
+                     <a href="file:///C:/Users/mr.saurabh%20yadav/Desktop/HTML/class/Gallery%20login.html"style="font-size:16px;"><button>Gallery</button></a>
+                     <a href="#"style="font-size:16px;"><button>Contact Us</button></a>
+
+</br>
+</body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 40px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 2px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the login button */
+input[type=login btn] {
+   background-color: #55ACEE;
+  color: white;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #dfd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+ 
+}
+</style>
+</head>
+<body>
+
+
+
+    <div class="row"></br></br></br></br>
+	
+	<font color="red" size="4" face="arial">
+      <h1 style="text-align:center"  >Login with Social Media or Manually</h1>
+	  </font>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="https://www.facebook.com/" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+        <a href="https://twitter.com/" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="https://accounts.google.com/ServiceLogin/signinchooser?passive=1209600&continue=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F&followup=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="google btn"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p><font color="red" face="italic">
+		  Or sign in manually:</p>
+		  </font>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+           <div class="col">
+		   
+		   <a href="file:///C:/Users/mr.saurabh%20yadav/Desktop/HTML/class/2sd%20page.html" class="login btn"> <button class="btn login-btn">Login</button>
+      </a>
+          
+
+        
+	</div>
+		 
+      </div>
+      
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="file:///C:/Users/mr.saurabh%20yadav/Desktop/HTML/class/create%20%20your%20Accounth.html" style="color:white" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="file:///C:/Users/mr.saurabh%20yadav/Desktop/HTML/class/foget.htm" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
+<img src="sms logo.png" alt="This is image"height="300px" width="800px">
+
+</body>
+</html>
